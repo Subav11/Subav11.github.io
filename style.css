@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0a8ef2;
+    color: white;
+    margin: none;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px; /* space between the nav items */
+}
+
+.nav-items nav {
+    cursor: pointer;
+}
