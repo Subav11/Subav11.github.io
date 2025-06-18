@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Multimedia</h1>
+    <h3>Audio Files</h3>
+    <audio controls>
+      <source src="boot.mp3" />
+    </audio>
+
+    <h3>Video Files</h3>
+    <video height="200px" width="300px" controls>
+      <source src="st1.mp4" />
+      <!-- subtitles -->
+      <track src="subtitle1.vtt" kind="subtitles" srclang="en" label="English">
+      <track src="subtitles2.vtt" kind="subtitles" srclang="in" label="Hindi">
+    </video>
+    <video height="200px" width="300px" autoplay muted>
+      <source src="st1.mp4" />
+    </video>
+    <br>
+    <!-- scalar vector graph -->
+    <svg width="800" height="800">
+        <circle cx="250" cy="400" r="100" stroke="red" stroke-width="5" fill="pink"/>
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="red" />
+            <text fill="black" font-size="30" font-family="Verdana" x="50" y="86">
+                Zee Cinema
+            </text>
+    </svg>
+  </body>
+</html>
