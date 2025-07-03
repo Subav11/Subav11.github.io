@@ -1,0 +1,24 @@
+body{
+    background-color: hsl(195, 8%, 49%);
+    display: flex;
+    justify-content: center;
+    padding: 225px;
+}
+
+.outer{
+    display: flex;
+    background-color: hsla(180, 100%, 50%, 0.5);
+    padding: 20px;
+    width: 30%;
+    justify-content: center;
+    
+}
+
+input{
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    background-color: hsla(120, 100%, 50%, 0.6);
+}
