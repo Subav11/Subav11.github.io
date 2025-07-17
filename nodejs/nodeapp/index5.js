@@ -6,7 +6,7 @@ app.listen(8080, () => {
   console.log("Server started");
 });
 
-//middleware for post
+//middleware - parses req.body to json
 app.use(express.json());
 
 let products = [];
